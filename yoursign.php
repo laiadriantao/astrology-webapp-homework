@@ -1,78 +1,78 @@
 <?php
-	include "ZodiacFinder.php"; 
-	
+	include "ZodiacFinder.php";
+
 	$result = "";
-	
+
 	//showing zodiac sign after date is given
 	if(isset($_GET["yourdate"])){
-		
+
 		//conv to time
 		$yourDate = strtotime($_GET["yourdate"]);
-		
+
 		//getting day and month individually
 		$day = date('j', $yourDate);
 		$month = date('n', $yourDate);
-		
+
 		//creating zodiac object for given form values
 		$zodiac = new ZodiacFinder($day,$month);
-	
-		//finding zodiac sign 
+
+		//finding zodiac sign
 		$zodiac -> zodiacFinder();
-		
+
 		//get zodiac sign with toString voodoo magic from the constellations
 		$zodiac -> __toString();
-		
+
 		$result = "Your sign is <a href =\"/daily/daily".$zodiac.".php\"><strong>".$zodiac."</strong></a>";
 	}
-	
-	
+
+
 ?>
 <html>
 	<head>
-	
+
 	</head>
-	
-	<body 
+
+	<body
 		bgcolor = "#0e0e0e"
-		link='#FFFFFF' 
-		vlink='#FFFFFF' 
+		link='#FFFFFF'
+		vlink='#FFFFFF'
 		alink='#6c448c'>
-	
+
 		<div>
 		<center>
-		
+
 		<!-- LOGO BANNER -->
 			<table
 				width = "500"
 				cellpadding = "0"
 				cellspacing = "0">
-				
+
 				<tr>
-				
+
 					<td>
 						<a href = "homepage.php">
-						<img 
+						<img
 						src = https://magic-spells-and-potions.com/images/magic-images/pentacles//purple-pentagram-circle.gif>
 						</a>
 					</td>
-				
+
 					<td
 						align = "TOP">
-						
+
 						<a href = "homepage.php">
-						<img 
-						src = "/astrosite/astrobanner.png" 
+						<img
+						src = "/astrosite/astrobanner.png"
 						width = "400">
 						</a>
-						
+
 					</td>
-					
+
 				</tr>
-				
+
 			</table>
 		</center>
 		</div>
-		
+
 		<!-- FORM -->
 		<div>
 		<center>
@@ -84,31 +84,31 @@
 				<td
 					align = "CENTER"
 					valign = "BOTTOM">
-					
+
 					<img
 						src="/astrosite/findyoursign.png">
 					<br>
 					<br>
 				</td>
 			</tr>
-			
+
 			<tr>
 				<td
 					align = "CENTER"
 					valign = "MIDDLE">
-				
-					<form 
-						action = "" 
+
+					<form
+						action = ""
 						method = "get"
 						id = "form1">
-						
-							<input 
-							type = "date" 
+
+							<input
+							type = "date"
 							name = "yourdate"
 							>
 							<br>
 							<br>
-							<button 
+							<button
 								type = "submit"
 								form = "form1"
 								value = "Submit">Submit</button>
@@ -122,31 +122,35 @@
 					align = "CENTER"
 					valign ="TOP">
 				<p>
-					<font 
+					<font
 					color = "#FFFFFF"
 					size = "6">&#8192
-						<?php 
+						<?php
 							echo @$result;
 						?>
 					&#8192
 					</font>
 				</p>
-				</td>
+			</td>
+		</tr>
 			<br>
+
 			</table>
 		</center>
 		</div>
-						<br>
+
+		<br>
 		<!-- Back Button-->
+
 		<div>
 		<center>
-			<a href = "/zodiacsigns.php">
-				<img 
+			<a href = "/homepage.php">
+				<img
 					src = "/astrosite/backbutton.png"
 					height = "50">
 			</a>
 		</center>
 		</div>
 	</body>
-	
+
 </html>

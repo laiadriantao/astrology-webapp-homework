@@ -1,15 +1,15 @@
 <?php
- 
+
 ?>
 <html>
 	<head>
 		<title> AstroWeb | Home </title>
 	</head>
-	
-	<body 
+
+	<body
 		bgcolor = #0e0e0e>
-		
-		<!-- MAP OF HOME --> 
+
+		<!-- MAP OF HOME -->
 		<map
 			name = "homeMenuMap">
 			<area
@@ -22,12 +22,17 @@
 				coords = "80,220,450,255"
 				alt = "Astrologer's Tools"
 				href = "/yoursign.php">
+        <area
+  				shape = "RECT"
+  				coords = "40,380,370,450"
+  				alt = "Your page"
+  				href = "/personalpage.php">
 		</map>
-		
+
 		<!-- HOMEPAGE DIV -->
 		<div>
 		<center>
-		
+
 		<!-- LOGO BANNER -->
 		<table
 			width = "500"
@@ -36,20 +41,20 @@
 			border = "0">
 			<tr>
 				<td>
-					<img 
+					<img
 					src = https://magic-spells-and-potions.com/images/magic-images/pentacles//purple-pentagram-circle.gif>
 				</td>
 				<td
 					align = "TOP"
 					valign = "CENTER">
-					<img 
-					src = "/astrosite/astrobanner.png" 
+					<img
+					src = "/astrosite/astrobanner.png"
 					width = "400">
 				</td>
 
 			<tr>
 		</table>
-		
+
 		<!-- MOME MENU-->
 		<table
 			width = "500"
@@ -57,33 +62,23 @@
 			cellspacing = "0"
 			border = "0">
 			<tr>
-				
+
 				<td
 					align = "TOP"
 					valign = "CENTER">
-					
-					<img 
-					src = "/astrosite/homeMenu.gif" 
-					height = "500" 
+
+					<img
+					src = "/astrosite/homeMenu.gif"
+					height = "500"
 					width = "500"
 					usemap = "#homeMenuMap">
 				</td>
-				
+
 			</tr>
-		</table>	
+		</table>
 		</center>
 		</div>
-						<br>
-		<!-- Back Button-->
-		<div>
-		<center>
-			<a href = "/zodiacsigns.php">
-				<img 
-					src = "/astrosite/backbutton.png"
-					height = "50">
-			</a>
-		</center>
-		</div>
+
 	</body>
-	
+
 </html>
