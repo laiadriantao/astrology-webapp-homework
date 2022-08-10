@@ -24,7 +24,7 @@ Particularly these websites:<br /><br />
 2. https://www.webdesignmuseum.org/gallery/2advanced-studios-v3-2001
 3. https://www.webdesignmuseum.org/gallery/space-jam-1996
 
-### Isn't this quite a useless assignment though in today's day and age we have better ways to make websites?
+## Is this worth the trouble?
 
 At first, I felt repulsive for having to create a website with just HTML and PHP, but after complaining the seemingly "unreasonable" task some questions have to be asked :
 * ___How did they do websites back in the day?___ 
