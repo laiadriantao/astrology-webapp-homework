@@ -10,6 +10,11 @@ Used tools :
 * and obvisously an Apache Server with MySQL and Linux
 
 The assignment is as the title said, I had some interesting restrictions to go around while creating this project.
+
+## Video presentation
+
+[![Watch the video](https://i.imgur.com/VOaMqYp.png)](https://www.youtube.com/watch?v=URfg7oWR4pc)
+
 ## Source of inspiration
 
 For the design I used inspiration from early internet websites from https://www.webdesignmuseum.org/.
@@ -40,8 +45,7 @@ I recommend using these resources for any styling needs:
 * https://www.htmlhelp.com/reference/html40/olist.html
 
 ## Setup?
-To run this website you must download all the files and modify the configuration files according to your situation you can start with dbconfig.php.
-You could use XAMPP for an easier setup.
+To run this website you must download all the files and modify the configuration files according to your situation you can start with dbconfig.php and also creating the database along with the table. You can use XAMPP for an easier setup.
 
 ## What does this do?
 This application is very simple and it is composed only of a single class named ZodiacFinder.
@@ -51,4 +55,4 @@ Another interesting functionality this app has is to fetch the tomorrow's predic
   This functionality however is not embedded in any class but it's written directly in each page of each zodiac sign due to time constraints at the
   making of the app, but the code was written in such a way that it could be easily adjusted for each zodiac sign page.
 
-I am expecting in the future to create a more modern version of this application.
+I am expecting in the future to take a more modern approach to this app.
