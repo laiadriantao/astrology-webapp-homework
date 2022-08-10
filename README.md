@@ -44,7 +44,7 @@ I recommend using these resources for any styling needs:
 * https://www.w3.org/TR/html401/
 * https://www.htmlhelp.com/reference/html40/olist.html
 
-## Setup?
+## How to setup?
 To run this website you must download all the files and modify the configuration files according to your situation you can start with dbconfig.php and also creating the database along with the table. You can use XAMPP for an easier setup.
 
 ## What does this do?
