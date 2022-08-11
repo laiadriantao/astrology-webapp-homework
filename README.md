@@ -31,15 +31,15 @@ Particularly these websites:<br /><br />
 
 ## Is this worth the trouble?
 
-At first, I felt repulsive for having to create a website with just HTML and PHP, but after complaining the seemingly "unreasonable" task some questions have to be asked :
+At first, I felt repulsive for having to create a website with just HTML and PHP, but afterwards the seemingly "unreasonable" task, some questions popped up in my mind :
 * ___How did they do websites back in the day?___ 
 * ___How was it possible?___ 
 * ___Were they good looking and easy to use?___
 
-The answer to these questions I have found mostly on the Web Design Museum and I am sure you will be amazed by the creativity of the old times as well. While CSS was not advanced enough, many websites were composed merely of a centered image with a map, something which sounds useless by today's standards, but in the past a creative approach to design.
+The answer to these questions I have found mostly on the Web Design Museum and I am sure you will be amazed by the creativity of the old times as well. While CSS was not advanced enough, many websites were composed merely of a centered image with a map, something which sounds useless by today's standards, but it was a creative approach to design of the past.
 
 ## Are there any resources if I am looking to create something similar?
-If you are ever found in constraints such as these ones, which is in my opinion very unlikely unless it's a school assignment or challenge
+If you are ever found in constraints such as these ones, which is in my opinion very unlikely unless it's a school assignment or challenge <br />
 I recommend using these resources for any styling needs:
 * https://www.w3.org/TR/html401/
 * https://www.htmlhelp.com/reference/html40/olist.html
