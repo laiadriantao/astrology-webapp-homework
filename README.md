@@ -1,7 +1,7 @@
 # astrology-webapp-homework
 
 ## Introduction
-This is the final project for the "Introduction to IT" course at UPB. The assignment was to create a functional webapp using the LAMP stack without relying on any styling by using (CSS, SASS, Bootstrap, inline CSS, etc.) and any other frameworks as well as no Javascript.
+This is the final project for the "Introduction to IT: Operating Systems" course at UPB. The assignment was to create a functional webapp using the LAMP stack without relying on any styling by using (CSS, SASS, Bootstrap, inline CSS, etc.) and any other frameworks as well as no Javascript.
 
 Used tools :
 * PHP
