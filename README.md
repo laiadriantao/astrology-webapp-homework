@@ -1,7 +1,7 @@
 # astrology-webapp-homework
 
 ## Introduction
-This is the final project for the "Introduction to IT: Operating Systems" course at UPB. The assignment was to create a functional webapp using the LAMP stack without relying on any styling by using (CSS, SASS, Bootstrap, inline CSS, etc.) and any other frameworks as well as no Javascript.
+This is the final project for the "Introduction to IT: Operating Systems", "OS:IIT" aka "Operating Systems Administration", "OSA" course at UPB-FILS. The assignment was to create a functional webapp using the LAMP stack without relying on any styling by using (CSS, SASS, Bootstrap, inline CSS, etc.) and any other frameworks as well as no Javascript. This assignment is an example of what you can do to achieve a maximum grade (10) for the capstone project at the end of the course if the requirements do not change. Below you can also find guidelines for achieveing the maximum grade.
 
 Used tools :
 * PHP
@@ -49,10 +49,20 @@ To run this website you must download all the files and modify the configuration
 
 ## What does this do?
 This application is very simple and it is composed only of a single class named ZodiacFinder.
-  What ZodiacFinder does is to compute and return a Zodiac sign based on the input date.
+  What ZodiacFinder does is to compute and return a Zodiac sign based on the input date. 
 
 Another interesting functionality this app has is to fetch the tomorrow's predictions from the website horoscope.com for each respective zodiac sign.
   This functionality however is not embedded in any class but it's written directly in each page of each zodiac sign due to time constraints at the
-  making of the app, but the code was written in such a way that it could be easily adjusted for each zodiac sign page.
+  making of the app, but the code was written in such a way that it could be easily adjusted for each zodiac sign page. 
+  
+## Guidelines to get the maximum grade
+It is mandatory to understand that going outside the project requirements it's your own choice and that it will NOT be considered as work towards the grade.
+Checklist :
+* Run the webapp on a Apache Server with MySQL/MariaDB
+* Make sure your app does CRUD (Create, Read, Update, Delete) operations in a database; it is a mandatory criteria in achieveing a maximum grade
+  > searching PHP CRUD on the internet should provide you with many examples for you to follow through
+* Another CRITERIA which will make the difference between receiving the grade 7 or 10 is having a *calculation performed on the data that can be found in the database and assigning it to a table*
+  > For example: When I login I enter my date of birth "Person: ID(123), email(abc@mail.com), DateOfBirth(19-12-1900), ZodiacSign(*empty*)". The application will perform a calculation that will correspond my zodiac sign to the entered date and then the person table shall be as it follows "Person: ID(123), email(abc@mail.com), DateOfBirth(19-12-1900), ZodiacSign(Sagittarius)". 
+  
+*But my application computes already!* Yes, but does it also store the computation inside the database? It is a question you should have in mind.
 
-I am expecting in the future to take a more modern approach to this app.
