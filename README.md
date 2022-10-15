@@ -1,7 +1,7 @@
 # astrology-webapp-homework
 
 ## Introduction
-This is the final project for the "Introduction to IT: Operating Systems", "OS:IIT" aka "Operating Systems Administration", "OSA" course at UPB-FILS. The assignment was to create a functional webapp using the LAMP stack without relying on any styling by using (CSS, SASS, Bootstrap, inline CSS, etc.) and any other frameworks as well as no Javascript. This assignment is an example of what you can do to achieve a maximum grade (10) for the capstone project at the end of the course if the requirements do not change. Below you can also find guidelines for achieveing the maximum grade.
+This is the final project for the "Introduction to IT: Operating Systems", "OS:IIT" aka "Operating Systems Administration", "OSA" course at UPB-FILS year 2021. The assignment was to create a functional webapp using the LAMP stack without relying on any styling by using (CSS, SASS, Bootstrap, inline CSS, etc.) and any other frameworks as well as no Javascript. This assignment is an example of what you can do to achieve a maximum grade (10) for the capstone project at the end of the course if the requirements do not change, below you can also find guidelines for the maximum grade.
 
 Used tools :
 * PHP
